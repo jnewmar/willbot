@@ -1,0 +1,26 @@
+version: "3.1"
+services:
+  cli:
+    build: .
+    volumes:
+      - ./willbot-cli:/opt/willbot-cli
+    links:
+      - mongo
+      - mysql
+  mongo:
+    image: mongo
+    volumes:
+      - /data/mongodb/db:/data/db
+    ports:
+      - "27017:27017"
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: password 
+      MYSQL_DATABASE: willbot
+      MYSQL_USER: wb_user
+      MYSQL_PASSWORD: wb_password
+    volumes:
+      - /data/mysql:/var/lib/mysql    
+    ports:
+      - "9906:3306"

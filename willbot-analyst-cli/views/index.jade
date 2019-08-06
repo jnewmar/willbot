@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  ul
+  li: a(href="/loadAvg" , target="_blank" ) loadAvg
+  li: a(href="/getLast" , target="_blank" ) getLast
+  li: a(href="/fillHistory" , target="_blank" ) fillHistory
+  li: a(href="/loadSma9" , target="_blank" ) loadSma9
+  li: a(href="/loadEma9" , target="_blank" ) loadEma9
+  li: a(href="/loadEma20" , target="_blank" ) loadEma20
+  li: a(href="/loadEma50" , target="_blank" ) loadEma50
+  li: a(href="/loadSma250" , target="_blank" ) loadSma250
+  li: a(href="/getCsv" , target="_blank" ) getCsv

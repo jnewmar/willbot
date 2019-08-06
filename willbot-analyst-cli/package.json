@@ -1,0 +1,21 @@
+{
+  "name": "willbot",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "nodemon -L bin/www"
+  },
+  "dependencies": {
+    "nonce": "~1.0.3",
+    "request": "~2.33.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-async-handler": "1.1.3",
+    "http-errors": "~1.6.2",
+    "https": "~1.0.0",
+    "jade": "^1.11.0",
+    "moment-timezone": "^0.5.21",
+    "mongodb": "^2.2.9",
+    "morgan": "~1.9.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+ "exchangeAddress": "Ggfz4r1Sgxc9rBg691vqNPSKq3V51bTydn",
+ "minToSendToExchange": 10,
+ "mmLock": 4000,
+ "txFee": 0.1,
+ "coinCli": "sparks-cli",
+ "coinDatDir": "-datadir=/home/wmori/.Sparks/",
+ "cmdGetBallance": "getbalance",
+ "cmdGetUnconfirmedBallance": "getunconfirmedbalance",
+ "cmdSend": "sendtoaddress"
+}

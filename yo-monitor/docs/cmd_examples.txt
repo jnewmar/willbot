@@ -1,0 +1,35 @@
+Sparks
+
+sparksd -daemon -datadir=-datadir=/home/william/.sparkscore/
+sparks-cli -datadir=-datadir=/home/william/.sparkscore/ stop
+sparks-cli -daspatr tadir=-datadir=/home/william/.sparkscore/ getbalance
+sparks-cli -datadir=/home/william/.sparkscore/ getinfo
+
+Cedem
+cedemd -daemon -data-dir=/home/william/.cedem
+cedem-cli -data-dir=/home/william/.cedem getinfo
+cedem-cli -data-dir=/home/william/.cedem stop
+
+
+Savenode
+savenode-cli listlockunspent
+savenode-cli gettransaction b94dbdb0662332b7198ffcb86512eea52faaa656d1b78ffe6009857e294e60b0
+
+
+
+Securecoin
+
+
+dividendcash
+
+
+
+Arnesta
+
+Arnestad -data-dir=/home/william/.Arnesta -daemon
+Arnesta-cli -data-dir=/home/william/.Arnesta getinfo
+Arnesta-cli -data-dir=/home/william/.Arnesta stop
+Arnesta-cli -data-dir=/home/william/.Arnesta getbalance *
+
+
+mastercoin
