@@ -20,7 +20,7 @@
     "commander": "^2.17.1",
     "crypto": "^1.0.1",
     "json": "^9.0.6",
-    "moment": "^2.22.2",
+    "moment": "^2.29.2",
     "nonce": "~1.0.3",
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
